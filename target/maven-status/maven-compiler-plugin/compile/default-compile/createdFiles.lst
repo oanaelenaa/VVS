@@ -1,0 +1,6 @@
+ui/ElectricaUI.class
+App.class
+controller/ClientController.class
+model/Client.class
+repository/DataManager.class
+model/Issue.class
