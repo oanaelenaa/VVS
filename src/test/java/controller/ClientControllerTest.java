@@ -23,6 +23,12 @@ public class ClientControllerTest {
     }
 
     @org.junit.Test
+    public void addInvalidClient(){
+
+    }
+
+
+    @org.junit.Test
     public void addClientIndex() {
     }
 
