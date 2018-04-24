@@ -1,6 +1,24 @@
 package controller;
+import junit.framework.JUnit4TestAdapter;
+import junit.framework.TestSuite;
+import org.junit.runner.RunWith;
+import org.junit.runners.AllTests;
 
-import org.jboss.arquillian.container.test.api.Deployment;
+@RunWith(AllTests.class)
+public class ClientControllerTest{
+    public void addInvalidClient(){
+
+    }
+
+    public void addValidClient(){
+
+    }
+
+}
+
+
+
+/*import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.junit.Arquillian;
 import org.jboss.shrinkwrap.api.ShrinkWrap;
 import org.jboss.shrinkwrap.api.asset.EmptyAsset;
@@ -36,3 +54,4 @@ public class ClientControllerTest {
     public void listIssue() {
     }
 }
+*/
