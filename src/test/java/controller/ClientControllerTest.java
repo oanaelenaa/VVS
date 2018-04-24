@@ -13,7 +13,6 @@ public class ClientControllerTest{
     @Test
     public void testAddInvalidClient(){
         ClientController c=new ClientController();
-
         assertEquals("Client already exists!", c.AddClient("Lorincz Arnold","Mera 278", "1"));
         assertEquals("Name or address cannot be empty!", c.AddClient("","Mera 27", "123"));
         assertEquals("Invalid character:@" , c.AddClient("@sa","Mera 27", "123"));
@@ -27,44 +26,9 @@ public class ClientControllerTest{
 
     }
 
+    @Test
+    public void testIntegrationAddClient(){
+
+    }
+
 }
-
-
-
-/*import org.jboss.arquillian.container.test.api.Deployment;
-import org.jboss.arquillian.junit.Arquillian;
-import org.jboss.shrinkwrap.api.ShrinkWrap;
-import org.jboss.shrinkwrap.api.asset.EmptyAsset;
-import org.jboss.shrinkwrap.api.spec.JavaArchive;
-import org.junit.runner.RunWith;
-
-import static org.junit.Assert.*;
-
-@RunWith(Arquillian.class)
-public class ClientControllerTest {
-    @Deployment
-    public static JavaArchive createDeployment() {
-        return ShrinkWrap.create(JavaArchive.class)
-                .addClass(ClientController.class)
-                .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");
-    }
-
-    @org.junit.Test
-    public void addClient() {
-    }
-
-    @org.junit.Test
-    public void addInvalidClient(){
-
-    }
-
-
-    @org.junit.Test
-    public void addClientIndex() {
-    }
-
-    @org.junit.Test
-    public void listIssue() {
-    }
-}
-*/
