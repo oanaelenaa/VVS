@@ -16,7 +16,6 @@ public class ClientControllerTest{
         assertEquals("Client already exists!", c.AddClient("Lorincz Arnold","Mera 278", "1"));
         assertEquals("Name or address cannot be empty!", c.AddClient("","Mera 27", "123"));
         assertEquals("Invalid character:@" , c.AddClient("@sa","Mera 27", "123"));
-
     }
 
     @Test
@@ -25,6 +24,7 @@ public class ClientControllerTest{
         assertEquals(null,c.AddClient("Oana","Mera 27", "123"));
 
     }
+
     @Test
     public void testAddInvalidClientIndex(){
         ClientController c=new ClientController();
@@ -49,7 +49,31 @@ public class ClientControllerTest{
 
 
     @Test
+    public void testUnitTestClient() {
+        Client c=new Client("OanaT","Mera 24", "12345");
+        assertEquals("OanaT",c.getName());
+        assertEquals("Mera 24",c.getAddress());
+        assertEquals("12345",c.getIdClient());
+    }
+
+
+    @Test
+    public void testIntegrationClientDataManager() {
+        DataManager dataManager=new DataManager();
+        assertEquals (0,dataManager.getClientsList());
+        Client c=new Client("OanaT","Mera 24", "12345");
+        dataManager.Clients.add(c);
+        dataManager.SaveChanges();
+        assertEquals (1,dataManager.getClientsList());
+    }
+
+
+    @Test
     public void testIntegrationAddClient(){
+
+        testUnitTestClient();
+        testIntegrationClientDataManager();
+
         //top down approach
         ClientController ctrl = new ClientController();
         String result=ctrl.AddClient("OanaT","Mera 24", "12345");
@@ -63,8 +87,6 @@ public class ClientControllerTest{
         String fileIssue = "issue.txt";
         DataManager dataManager=new DataManager();
         assertEquals (0,dataManager.getClientsList());
-
-
     }
 
 }

@@ -6,8 +6,34 @@ public class Client {
 	public String Name;
     public String Address;
     public String idClient;
-    
+
+    public String getName() {
+        return Name;
+    }
+
+    public void setName(String name) {
+        Name = name;
+    }
+
+    public String getIdClient() {
+        return idClient;
+    }
+
+    public void setIdClient(String idClient) {
+        this.idClient = idClient;
+    }
+
+    public String getAddress() {
+
+        return Address;
+    }
+
+    public void setAddress(String address) {
+        Address = address;
+    }
+
     public Client(){
+
         this.Name = "";
         this.Address = "";
         this.idClient="";
