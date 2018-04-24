@@ -1,7 +1,4 @@
 package controller;
-import com.sun.xml.internal.ws.developer.UsesJAXBContext;
-import junit.framework.JUnit4TestAdapter;
-import junit.framework.TestSuite;
 import model.Client;
 import org.junit.Test;
 import org.junit.runner.RunWith;
