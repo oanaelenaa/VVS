@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9e1a14c-808b-40e7-88a6-89f6397d7e07" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/controller/ClientControllerTest.class" afterPath="$PROJECT_DIR$/target/test-classes/controller/ClientControllerTest.class" />
-      <change beforePath="$PROJECT_DIR$/vvsmavenelectrica1.iml" afterPath="$PROJECT_DIR$/vvsmavenelectrica1.iml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/controller/ClientControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/controller/ClientControllerTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientControllerTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ClientControllerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/controller/ClientControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="16" column="91" lean-forward="false" selection-start-line="16" selection-start-column="91" selection-end-line="16" selection-end-column="91" />
+            <state relative-caret-position="135">
+              <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,15 +49,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientControllerTest.class" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClientControllerTest.class" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/target/test-classes/controller/ClientControllerTest.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding>
-                <marker date="1524579852206" expanded="true" signature="3:117" ph="/.../" />
-                <marker date="1524579852206" expanded="true" signature="270:293" ph="{}" />
-                <marker date="1524579852206" expanded="true" signature="428:451" ph="{}" />
+                <marker date="1524580211149" expanded="true" signature="3:117" ph="/.../" />
+                <marker date="1524580211149" expanded="true" signature="270:293" ph="{}" />
+                <marker date="1524580211149" expanded="true" signature="436:459" ph="{}" />
               </folding>
             </state>
           </provider>
@@ -190,8 +187,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="17" />
-    <option name="y" value="23" />
+    <option name="x" value="57" />
+    <option name="y" value="67" />
     <option name="width" value="1440" />
     <option name="height" value="694" />
   </component>
@@ -467,15 +464,15 @@
       <workItem from="1522785155459" duration="1917000" />
       <workItem from="1524511369174" duration="1321000" />
       <workItem from="1524514882989" duration="704000" />
-      <workItem from="1524578631637" duration="1208000" />
+      <workItem from="1524578631637" duration="1567000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5603000" />
+    <option name="totallyTimeSpent" value="5962000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="17" y="23" width="1440" height="694" extended-state="0" />
+    <frame x="57" y="67" width="1440" height="694" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -900,16 +897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/controller/ClientControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="91" lean-forward="false" selection-start-line="16" selection-start-column="91" selection-end-line="16" selection-end-column="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -923,9 +910,19 @@
         <state relative-caret-position="225">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
-            <marker date="1524579852206" expanded="true" signature="3:117" ph="/.../" />
-            <marker date="1524579852206" expanded="true" signature="270:293" ph="{}" />
-            <marker date="1524579852206" expanded="true" signature="428:451" ph="{}" />
+            <marker date="1524580211149" expanded="true" signature="3:117" ph="/.../" />
+            <marker date="1524580211149" expanded="true" signature="270:293" ph="{}" />
+            <marker date="1524580211149" expanded="true" signature="436:459" ph="{}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/controller/ClientControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

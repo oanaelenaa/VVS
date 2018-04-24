@@ -11,7 +11,7 @@ import static junit.framework.TestCase.assertEquals;
 public class ClientControllerTest{
 
     @Test
-    public void addInvalidClient(){
+    public void testAddInvalidClient(){
         ClientController c=new ClientController();
 
         assertEquals("Client already exists!", c.AddClient("Lorincz Arnold","Mera 278", "1"));
@@ -21,7 +21,7 @@ public class ClientControllerTest{
     }
 
     @Test
-    public void addValidClient(){
+    public void testAddValidClient(){
         ClientController c=new ClientController();
         assertEquals(null,c.AddClient("Oana","Mera 27", "123"));
 
